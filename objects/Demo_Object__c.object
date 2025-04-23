@@ -143,39 +143,55 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
-    <enableActivities>false</enableActivities>
-    <enableBulkApi>true</enableBulkApi>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>false</enableBulkApi>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableLicensing>false</enableLicensing>
-    <enableReports>false</enableReports>
-    <enableSearch>false</enableSearch>
-    <enableSharing>true</enableSharing>
-    <enableStreamingApi>true</enableStreamingApi>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>false</enableSharing>
+    <enableStreamingApi>false</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <label>Student</label>
+    <label>Demo Object</label>
     <nameField>
-        <label>Student Name</label>
-        <type>Text</type>
+        <displayFormat>Demo Object No-{0000}</displayFormat>
+        <label>Demo Object No</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
     </nameField>
-    <pluralLabel>Students</pluralLabel>
+    <pluralLabel>Demo Object</pluralLabel>
     <searchLayouts/>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
-
-        <length>100</length>
+        <fullName>Email_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Data</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>First_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>First Field</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
     </fields>
     <fields>
-        <fullName>Student_Descriptions__c</fullName>
+        <fullName>Second_Field__c</fullName>
         <externalId>false</externalId>
-        <label>Student Descriptions</label>
-        <length>100</length>
+        <label>Second Field</label>
+        <length>80</length>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <trackTrending>false</trackTrending>
         <type>Text</type>
         <unique>false</unique>
