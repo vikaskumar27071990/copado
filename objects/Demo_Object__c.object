@@ -165,9 +165,30 @@
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>
     <fields>
+        <fullName>Email_Data__c</fullName>
+        <externalId>false</externalId>
+        <label>Email Data</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
         <fullName>First_Field__c</fullName>
         <externalId>false</externalId>
         <label>First Field</label>
+        <length>80</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Second_Field__c</fullName>
+        <externalId>false</externalId>
+        <label>Second Field</label>
         <length>80</length>
         <required>false</required>
         <trackHistory>false</trackHistory>
